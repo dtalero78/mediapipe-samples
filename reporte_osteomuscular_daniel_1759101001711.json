@@ -1,0 +1,54 @@
+{
+  "patientInfo": {
+    "name": "daniel",
+    "date": "28/9/2025",
+    "time": "18:10:01",
+    "examType": "postura"
+  },
+  "summary": {
+    "posture": {
+      "cervicalAlignment": 170.28086361893315,
+      "pelvicTilt": 0.5021523789743466,
+      "lateralDeviation": 53.37033420801163
+    },
+    "joints": {
+      "rightShoulderAngle": 175.22118716222298,
+      "leftShoulderAngle": 177.67462412115168,
+      "rightHipAngle": 178.45932205388473,
+      "leftHipAngle": 178.09470555732108
+    },
+    "symmetry": {
+      "shoulderSymmetry": 87.57713119733828,
+      "hipSymmetry": 99.85269326755251,
+      "overallBalance": 93.71491223244539
+    }
+  },
+  "snapshots": [
+    {
+      "timestamp": "2025-09-28T23:09:42.328Z",
+      "patientName": "daniel",
+      "examType": "postura",
+      "metrics": {
+        "posture": {
+          "cervicalAlignment": 174.94457460965327,
+          "pelvicTilt": 1.9988339902815657,
+          "lateralDeviation": 34.84529256820679
+        },
+        "joints": {
+          "rightShoulderAngle": 22.75111444060463,
+          "leftShoulderAngle": 176.23105675418927,
+          "rightHipAngle": 177.82815993952636,
+          "leftHipAngle": 178.75195060714944
+        },
+        "symmetry": {
+          "shoulderSymmetry": 91.85116773863999,
+          "hipSymmetry": 99.48150889751155,
+          "overallBalance": 95.66633831807576
+        }
+      }
+    }
+  ],
+  "recommendations": [
+    "🔸 Considerar evaluación de postura cervical - desviación significativa detectada"
+  ]
+}
